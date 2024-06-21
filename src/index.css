@@ -18,6 +18,17 @@ h1{
   font-weight:bold;
   color: rgb(17, 197, 185);
 }
+P{
+  margin:5px !important;
+  text-align: left;
+  padding: 0;
+}
+.btn1{
+  box-shadow: none !important;
+  background-color: white !important;
+  color: yellow !important;
+  border: 1px solid orangered !important;
+}
 .header{
   padding: 10px;
   background-color: rgb(66, 66, 66);
@@ -25,4 +36,9 @@ h1{
 .content{
   min-height: 90vh;
   background-color:rgb(237, 237, 237);
+}
+.carimg{
+  height:180px;
+  width:auto;
+  border-radius: 5px;
 }
