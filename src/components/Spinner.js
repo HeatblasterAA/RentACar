@@ -3,8 +3,8 @@ import { Spin } from 'antd';
 
 function Spinner() {
     return (
-        <div>
-            <Spin />
+        <div className="spinner">
+            <Spin size='large' />
         </div>
     );
 }
