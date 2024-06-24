@@ -22,7 +22,7 @@ export const userRegister=(reqObj)=>async dispatch=>{
     dispatch({type: 'LOADING' , payload:true})
 
     try {
-        const response = await axios.post('/api/users/login' , reqObj) 
+        const response = await axios.post('/api/users/register' , reqObj) 
         dispatch({type: 'LOADING' , payload:false})
         message.success('Register successful')
     } catch (error) {
