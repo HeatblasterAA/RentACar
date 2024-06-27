@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bs1{
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.spinner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+}
+h1{
+  font-size: 30px;
+  font-weight:bold;
+  color: rgb(17, 197, 185);
+}
+P{
+  margin:5px !important;
+  text-align: left;
+  padding: 0;
+}
+.btn1{
+  box-shadow: none !important;
+  background-color: white !important;
+  color: orange !important;
+  border: 1px solid orangered !important;
+}
+.btn1:focus{
+  border: none;
+}
+.header{
+  padding: 10px;
+  background-color: rgb(66, 66, 66);
+}
+.content{
+  min-height: 90vh;
+  background-color:rgb(237, 237, 237);
+}
+/* this is just for ui purpose , no functionality is related */
+.car{
+  border-radius: 5px;
+  margin-top: 100px;
+  height: 160px;
+  transition: 0.3s;
+}
+.car:hover{
+  height: 220px;
+}
+.car:hover> .car-content {
+
+  opacity : 1;
+  transform:translateY(-40px) ;
+}
+.carimg{
+  height:180px;
+  width:auto;
+  border-radius: 5px;
+  transform: translateY(-50px);
+}
+.car-content{
+  transform: translateY(-200px);
+  opacity: 0;
+  transition: 0.3s
+}
+
+/* Login Page */
+.login{
+  background-color: black;
+  padding-top: 50px;
+  min-height: 100vh;
+}
+.login label , .login h1{
+  color: white !important;
+  opacity: 0.6;
+}
+.login-form{
+  background-color: #1f1f1f;
+}
+.login-form input{
+  background-color: #333333 !important;
+  border: none !important;
+  color: white;
+  opacity: 0.5;
+}
+.login-logo{
+  position: absolute;
+  left: 0;
+  right: 50%;
+  top: 50%;
+  bottom: 50%; 
+  transform: translateY(-50% , -50%);
+  font-size: 40px;
+  opacity: 0.2 !important;
+  
+}
+.btn2{
+  box-shadow: none !important;
+  background-color: #333333 !important;
+  color: white !important;
+  border: 1px solid black !important;
+  padding: 5px 15px !important;
+  outline: none !important;
+}
+.btn2:focus{
+  border: none;
+}
+button{
+  padding: 3px 10px !important;
+}
+.login a{
+  color: white !important;
+  opacity: 0.5 ;
+}
