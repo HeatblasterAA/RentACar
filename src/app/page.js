@@ -3,6 +3,7 @@ import Carousels from "./components/Carousel";
 import Subfooter from "./components/Subfooter";
 // Carousels;
 import Explore from "./components/Explore";
+import OurObjective from "./components/OurObjective";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <div className="relative">
         <Explore />
         <Subfooter />
+        <OurObjective />
       </div>
     </div>
   );
